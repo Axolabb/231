@@ -1,0 +1,77 @@
+.gallery {
+    margin-bottom: 140px;
+}
+.gallery__top-container {
+    display: flex;
+    align-items: start;
+    margin-bottom: 40px;
+    gap: 150px;
+}
+.gallery__h1-block {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.gallery__text-block {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px 75px;
+}
+.gallery__counter {
+    display: flex;
+    gap: 15px;
+    align-items: end;
+    font-family: Gabriola;
+    font-size: 42px;
+}
+.gallery__images {
+    gap: 32px;
+    display: flex;
+    height: 373px;
+    overflow: hidden;
+}
+.gallery__img {
+    min-width: 296px;
+    height: 373px;
+    border-radius: var(--radius);
+    background-position: center;
+    cursor: pointer;
+}
+.gallery__img1 {
+    background: url(../media/cake-gallery.jpg);
+    background-position: center;
+    background-size: 150% 100%;
+    
+}
+.gallery__img2 {
+    background: url(../media/cake-gallery2.jpg);
+    background-position: center;
+    background-size: 200% 100%;
+}
+.gallery__img3 {
+    background: url(../media/cake-gallery3.jpg);
+    background-position: center;
+    background-size: 140% 100%;
+}
+.gallery__img4 {
+    background: url(../media/cake-gallery5.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+}
+.gallery__img5 {
+    background: url(../media/cake-gallery6.jpg);
+    background-position: center;
+}
+.gallery__img6 {
+    background: url(../media/cake-gallery7.jpg);
+    background-position: center;
+}
+.gallery__img7 {
+    background: url(../media/cake-gallery8.jpg);
+    background-position: center;
+}
+.gallery__img8 {
+    background: url(../media/cake-gallery9.jpg);
+    background-position: center;
+}
